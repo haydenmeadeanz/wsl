@@ -1,6 +1,6 @@
 # Whitespace Linter (`wsl`) documentation
 
-This page describes checks supported by [wsl](https://github.com/bombsimon/wsl)
+This page describes checks supported by [wsl](https://github.com/haydenmeadeanz/wsl)
 linter and how they should be resolved or configured to handle.
 
 ## Checklist
@@ -602,7 +602,7 @@ defer assignmentTwo()
 
 > **EXCEPTION**: It is allowed to use the following:
 >
-> 1) The `defer` after `error` check as reported in [Issue #31](https://github.com/bombsimon/wsl/issues/31)
+> 1) The `defer` after `error` check as reported in [Issue #31](https://github.com/haydenmeadeanz/wsl/issues/31)
 >
 > ```go
 > f1, err := os.Open("/path/to/f1.txt")

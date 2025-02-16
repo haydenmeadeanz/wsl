@@ -466,7 +466,7 @@ func (p *processor) parseBlockStatements(statements []ast.Stmt) {
 				if checkingErr {
 					// We only want to enforce cuddling error checks if the
 					// error was assigned on the line above. See
-					// https://github.com/bombsimon/wsl/issues/78.
+					// https://github.com/haydenmeadeanz/wsl/issues/78.
 					// This is needed since `assignedOnLineAbove` is not
 					// actually just assignments but everything from LHS in the
 					// previous statement. This means that if previous line was
@@ -627,7 +627,7 @@ func (p *processor) parseBlockStatements(statements []ast.Stmt) {
 				// There are several reasons to why we do this.
 				// Originally there was a special use case only for "Close"
 				//
-				// https://github.com/bombsimon/wsl/issues/31 which links to
+				// https://github.com/haydenmeadeanz/wsl/issues/31 which links to
 				//  resp, err := client.Do(req)
 				//  if err != nil {
 				//      return err
@@ -638,7 +638,7 @@ func (p *processor) parseBlockStatements(statements []ast.Stmt) {
 				// only hard code `Close` but for anything that's referenced two
 				// statements above.
 				//
-				// https://github.com/bombsimon/wsl/issues/85
+				// https://github.com/haydenmeadeanz/wsl/issues/85
 				//  db, err := OpenDB()
 				//  require.NoError(t, err)
 				//  defer db.Close()

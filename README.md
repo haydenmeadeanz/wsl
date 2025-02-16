@@ -3,8 +3,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-[![GitHub Actions](https://github.com/bombsimon/wsl/actions/workflows/go.yml/badge.svg)](https://github.com/bombsimon/wsl/actions/workflows/go.yml)
-[![Coverage Status](https://coveralls.io/repos/github/bombsimon/wsl/badge.svg?branch=master)](https://coveralls.io/github/bombsimon/wsl?branch=master)
+[![GitHub Actions](https://github.com/haydenmeadeanz/wsl/actions/workflows/go.yml/badge.svg)](https://github.com/haydenmeadeanz/wsl/actions/workflows/go.yml)
+[![Coverage Status](https://coveralls.io/repos/github/haydenmeadeanz/wsl/badge.svg?branch=master)](https://coveralls.io/github/haydenmeadeanz/wsl?branch=master)
 
 `wsl` is a linter that enforces a very **non scientific** vision of how to make
 code more readable by enforcing empty lines at the right places.
@@ -13,17 +13,17 @@ code more readable by enforcing empty lines at the right places.
 failed miserably. For this linter to be useful at all I want to be open to new
 ideas, configurations and discussions! Also note that some of the warnings might
 be bugs or unintentional false positives so I would love an
-[issue](https://github.com/bombsimon/wsl/issues/new) to fix, discuss, change or
+[issue](https://github.com/haydenmeadeanz/wsl/issues/new) to fix, discuss, change or
 make something configurable!
 
 ## Installation
 
 ```sh
 # Latest release
-go install github.com/bombsimon/wsl/v4/cmd/wsl@latest
+go install github.com/haydenmeadeanz/wsl/v4/cmd/wsl@latest
 
 # Main branch
-go install github.com/bombsimon/wsl/v4/cmd/wsl@master
+go install github.com/haydenmeadeanz/wsl/v4/cmd/wsl@master
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ The supported configuration can be found [in the
 documentation](doc/configuration.md).
 
 Below are the available checklist for any hit from `wsl`. If you do not see any,
-feel free to raise an [issue](https://github.com/bombsimon/wsl/issues/new).
+feel free to raise an [issue](https://github.com/haydenmeadeanz/wsl/issues/new).
 
 * [Anonymous switch statements should never be cuddled](doc/rules.md#anonymous-switch-statements-should-never-be-cuddled)
 * [Append only allowed to cuddle with appended value](doc/rules.md#append-only-allowed-to-cuddle-with-appended-value)
