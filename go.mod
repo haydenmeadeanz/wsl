@@ -1,4 +1,4 @@
-module github.com/haydenmeadeanz/wsl/v4
+module github.com/haydenmeadeanz/wsl
 
 go 1.24
 
